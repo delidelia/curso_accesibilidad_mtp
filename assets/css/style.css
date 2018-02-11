@@ -551,3 +551,9 @@ a {
 .probootstrap-animate {
   opacity: 0;
   visibility: hidden; }
+
+
+.error-form-contact {
+  font-weight: 600;
+  color: #F00; 
+}
