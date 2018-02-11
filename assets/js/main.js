@@ -9,7 +9,7 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 
 	// scroll
 
-	var scrollWindow = function() {
+	/**var scrollWindow = function() {
 		var lastScrollTop = 0;
 		$(window).scroll(function(){
 			var $w = $(this),
@@ -43,7 +43,7 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 
 		});
 	};
-	scrollWindow();
+	scrollWindow();**/
 	
 	
 	// navigation
