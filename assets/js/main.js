@@ -140,7 +140,7 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 		});
 
 		$('.js-owl-carousel-2').owlCarousel({
-	    loop : false,
+	    loop : true,
 	    margin : 20,
 	    nav : true,
 	    stagePadding : 0,
