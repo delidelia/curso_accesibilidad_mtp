@@ -132,6 +132,9 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 	        },
 	        1000 : {
 	            items:3
+	        },
+	        1400 : {
+	            items:4
 	        }
 	    }
 		});
@@ -141,6 +144,7 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 	    margin : 20,
 	    nav : true,
 	    stagePadding : 0,
+	    autoplay:true,
 	    navText : ["<span class='ion-chevron-left'></span>","<span class='ion-chevron-right'></span>"],
 	    responsive : {
 	        0 : {
@@ -154,6 +158,9 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 	        },
 	        1000 : {
 	            items:3
+	        },
+	        1200 : {
+	            items:4
 	        }
 	    }
 		});
