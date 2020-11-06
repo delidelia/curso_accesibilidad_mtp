@@ -80,7 +80,7 @@ body {
   background-color: #fff; }
 
 [tabindex="-1"]:focus {
-  outline: -webkit-focus-ring-color auto 1px; }
+  outline: -webkit-focus-ring-color auto 1px !important; }
 
 hr {
   -webkit-box-sizing: content-box;
