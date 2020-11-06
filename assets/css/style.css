@@ -606,3 +606,7 @@ a {
     -webkit-user-select: none;
 }
 
+.hidden{
+  display:none;
+}
+
