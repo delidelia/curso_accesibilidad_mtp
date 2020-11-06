@@ -610,10 +610,6 @@ a {
   display:none;
 }
 
-.tabs {
-  width: 20em;
-  font-family: "lucida grande", sans-serif;
-}
 
 [role="tablist"] {
   margin: 0 0 -0.1em;
