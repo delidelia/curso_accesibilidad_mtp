@@ -1,7 +1,7 @@
 
 $(document).ready(function () {
-  //var tablist = document.querySelectorAll('[role="tablist"]')[0];
-  var tablist = document.querySelectorAll('[role="tablist"]');
+  var tablist = document.querySelectorAll('[role="tablist"]')[0];
+  //var tablist = document.querySelectorAll('[role="tablist"]');
   var tabs;
   var panels;
   var delay = determineDelay();
