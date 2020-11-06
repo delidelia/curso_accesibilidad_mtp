@@ -157,7 +157,32 @@
     
     </section>
     <!-- END section -->
-    
+    <section>
+      <div class="tab-control">
+  <!-- Nav tabs -->
+  <ul id="tabPanel" class="nav nav-tabs" role="tablist">
+    <li class="active"><a tabindex="0" id="tab1" aria-controls="panel1" aria-selected="true" href="#panel1" aria-controls="home" role="tab" data-toggle="tab">Panel 1</a></li>
+    <li><a tabindex="-1" id="tab2" aria-controls="panel2" aria-selected="false" href="#panel2" aria-controls="profile" role="tab" data-toggle="tab">Panel 2</a></li>
+    <li><a tabindex="-1" id="tab3" aria-controls="panel3" aria-selected="false" href="#panel3" aria-controls="messages" role="tab" data-toggle="tab">Panel 3</a></li>
+    <li><a tabindex="-1" id="tab4" aria-controls="panel4" aria-selected="false" href="#panel4" aria-controls="settings" role="tab" data-toggle="tab">Panel 4</a></li>
+  </ul>
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div id="panel1" role="tabpanel" aria-hidden="false" aria-labelledby="panel1Header" class="tab-pane fade in active">
+      <h1 id="panel1Header">Panel 1 items go here!</h1>
+    </div>
+    <div id="panel2" role="tabpanel" aria-hidden="true" aria-labelledby="panel2Header" class="tab-pane fade">
+      <h1 id="panel2Header">Panel 2 items go here...</h1>
+    </div>
+    <div id="panel3" role="tabpanel" aria-hidden="true" aria-labelledby="panel3Header" class="tab-pane fade">
+      <h1 id="panel3Header">Panel 3 items go here???</h1>
+    </div>
+    <div id="panel4" role="tabpanel" aria-hidden="true" aria-labelledby="panel4Header" class="tab-pane fade">
+      <h1 id="panel4Header">Panel 4 items should go here.</h1>
+    </div>
+  </div>
+</div>
+    </section>
     <section class="rebootstrap_section" id="section-feature-testimonial">
       <div class="container">
         <div class="row justify-content-center mb-1">
