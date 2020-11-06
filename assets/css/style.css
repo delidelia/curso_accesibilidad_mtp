@@ -669,7 +669,7 @@ a {
 
 [role="tab"]:hover::before,
 [role="tab"]:focus::before {
-  border-color: hsl(20, 96%, 48%);
+  border-color: #007e2f;
 }
 
 [role="tabpanel"] {
@@ -683,7 +683,7 @@ a {
 
 [role="tabpanel"]:focus {
   border-color: #00CA4C;
-  box-shadow: 0 0 0.2em hsl(20, 96%, 48%);
+  box-shadow: 0 0 0.2em #007e2f;
   outline: 0;
 }
 
@@ -692,7 +692,7 @@ a {
   bottom: 0;
   right: -1px;
   left: -1px;
-  border-bottom: 3px solid hsl(20, 96%, 48%);
+  border-bottom: 3px solid #007e2f;
   border-radius: 0 0 0.2em 0.2em;
   content: '';
 }
