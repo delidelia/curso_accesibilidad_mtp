@@ -25,6 +25,7 @@ Tabpanel.prototype.init = function() {
 
   this.$panels.attr('aria-hidden', 'true');
   this.$panels.removeClass('active in');
+  this.$panels.addClass('hidden');
 
   $tab = this.$tabs.filter('.active');
 
