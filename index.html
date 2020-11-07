@@ -32,53 +32,53 @@
 
   <body data-spy="scroll" data-target="#rebootstrap-navbar" data-offset="200">
 
-  	<!-- Start nav -->
-    
-   <a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+    <!-- Start nav -->
+
+    <a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
 
     <section class="navbar navbar-expand-lg navbar-dark rebootstrap_navbar" id="rebootstrap-navbar">
-      <div class="container">
-        <a class="navbar-brand" href="#">Travel</a>
+        <div class="container">
+            <a class="navbar-brand" href="#">Travel</a>
 
-        <!-- Menú hamburguesa -->
+            <!-- Menú hamburguesa -->
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#rebootstrap-menu" >
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#rebootstrap-menu">
           <span><i class="ion-navicon"></i></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="rebootstrap-menu">
-          <div class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link" href="#section-home">Disfruta del viaje</a></li>
-            <li class="nav-item"><a class="nav-link" href="#section-city-guides">Promociones</a></li>
-            <li class="nav-item"><a class="nav-link" href="#section-services">Servicios</a></li>
-            <li class="nav-item"><a class="nav-link" href="#section-travel">Viaja con nosotros</a></li>
-            <li class="nav-item"><a class="nav-link" href="#section-contact">Contacto</a></li>
-          </div>
+            <div class="collapse navbar-collapse" id="rebootstrap-menu">
+                <div class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#section-home">Disfruta del viaje</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section-city-guides">Promociones</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section-services">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section-travel">Viaja con nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section-contact">Contacto</a></li>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
     <!-- END nav -->
-    
+
     <div id="content">
-    <section class="rebootstrap-cover overflow-hidden relative"  style="background-image: url('assets/images/bg_1.jpg');"  id="section-home">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md" >
-            <h2 class="heading mb-2 display-4 font-light" style="display:none;">Vive el verano que nunca olvidarás</h2>
-            <p class="lead mb-5" style="display:none;">Grandes ofertas para tus vacaciones de verano. Viaja a las Maldivas desde 500 €</p>
-           
-          </div> 
-          <div class="col-md">
-            <form action="/action_page.php" method="get" class="rebootstrap-form">
-              <div class="form-group">
-                <div class="row mb-3">
-                  <div class="col-md">
-                    <div class="form-group">
-                      <label >Desde</label>
+        <section class="rebootstrap-cover overflow-hidden relative" style="background-image: url('assets/images/bg_1.jpg');" id="section-home">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md">
+                        <h2 class="heading mb-2 display-4 font-light" style="display:none;">Vive el verano que nunca olvidarás</h2>
+                        <p class="lead mb-5" style="display:none;">Grandes ofertas para tus vacaciones de verano. Viaja a las Maldivas desde 500 €</p>
 
-                      
-                        <select class="select_buscador" id="id_label_1" style="width: 100%;">
+                    </div>
+                    <div class="col-md">
+                        <form action="/action_page.php" method="get" class="rebootstrap-form">
+                            <div class="form-group">
+                                <div class="row mb-3">
+                                    <div class="col-md">
+                                        <div class="form-group">
+                                            <label>Desde</label>
+
+
+                                            <select class="select_buscador" id="id_label_1" style="width: 100%;">
                           <option value="Spain">España</option>
                           <option value="Australia">Australia</option>
                           <option value="Japan">Japón</option>
@@ -91,17 +91,17 @@
                           <option value="Canada">Canada</option>
                           <option value="Chile">Chile</option>
                         </select>
-                     
 
 
-                    </div>
-                  </div>
-                  <div class="col-md">
-                    <div class="form-group">
-                      <label >Hasta</label>
-                     
-                        
-                        <select class="select_buscador_2" id="id_label_2" style="width: 100%;">
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md">
+                                        <div class="form-group">
+                                            <label>Hasta</label>
+
+
+                                            <select class="select_buscador_2" id="id_label_2" style="width: 100%;">
                           <option value="Spain">España</option>
                           <option value="Australia">Australia</option>
                           <option value="Japan">Japón</option>
@@ -114,273 +114,350 @@
                           <option value="Canada">Canada</option>
                           <option value="Chile">Chile</option>
                         </select>
-                    
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- END row -->
+                                <div class="row mb-5">
+                                    <div class="col-md">
+                                        <div class="form-group">
+                                            <label for="rebootstrap-date-departure">Salida</label>
+                                            <div class="rebootstrap-date-wrap">
+                                                <span class="icon ion-calendar"></span>
+                                                <input type="text" id="rebootstrap-date-departure" class="form-control" placeholder="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md">
+                                        <div class="form-group">
+                                            <label for="rebootstrap-date-arrival">Llegada</label>
+                                            <div class="rebootstrap-date-wrap">
+                                                <span class="icon ion-calendar"></span>
+                                                <input type="text" id="rebootstrap-date-arrival" class="form-control" placeholder="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- END row -->
+                                <div class="row">
+                                    <div class="col-md">
+                                        <label for="round" style="margin-right:6px;">Ida y vuelta</label><input type="radio" id="round" name="direction" class="mr-4">
+                                        <label for="oneway" style="margin-right:6px;">Sólo ida</label><input type="radio" id="oneway" name="direction">
+                                    </div>
+                                    <div class="col-md">
+                                        <span class="btn btn-primary btn-block">Buscar</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
                     </div>
-                  </div>
                 </div>
-                <!-- END row -->
-                <div class="row mb-5">
-                  <div class="col-md">
-                    <div class="form-group">
-                      <label for="rebootstrap-date-departure">Salida</label>
-                      <div class="rebootstrap-date-wrap">
-                        <span class="icon ion-calendar"></span> 
-                        <input type="text" id="rebootstrap-date-departure" class="form-control" placeholder="">
-                      </div>
+            </div>
+
+        </section>
+        <!-- END section -->
+
+        <section class="rebootstrap_section" id="section-feature-testimonial">
+            <div class="container">
+                <div class="row justify-content-center mb-1">
+                    <div class="col-md-12 text-center mb-1">
+                        <h5 class="display-4 border-bottom rebootstrap-section-heading">Tómate tu tiempo</h5>
+                        <blockquote class="">
+                            <p class="lead mb-4"><em>"Las vacaciones de muchas personas no son viajes de descubrimiento, sino rituales de tranquilidad."</em></p>
+                            <p class="rebootstrap-author">
+
+
+                                <span class="rebootstrap-name">Philip Andrew Adams</span>
+
+
+                            </p>
+                        </blockquote>
+
                     </div>
-                  </div>
-                  <div class="col-md">
-                    <div class="form-group">
-                      <label for="rebootstrap-date-arrival">Llegada</label>
-                      <div class="rebootstrap-date-wrap">
-                        <span class="icon ion-calendar"></span> 
-                        <input type="text" id="rebootstrap-date-arrival" class="form-control" placeholder="">
-                      </div>
-                    </div>
-                  </div>
                 </div>
-                <!-- END row -->
+
+            </div>
+        </section>
+        <!-- END section -->
+
+
+        <section class="rebootstrap_section" id="section-city-guides">
+            <div class="container">
+                <div class="row text-center mb-5">
+                    <div class="col-md-12">
+                        <h6 class="display-4 border-bottom rebootstrap-section-heading">Descubre nuevos lugares</h6>
+                    </div>
+                </div>
                 <div class="row">
-                  <div class="col-md">
-                    <label for="round" style="margin-right:6px;">Ida y vuelta</label><input type="radio" id="round" name="direction" class="mr-4">  
-                    <label for="oneway" style="margin-right:6px;">Sólo ida</label><input type="radio" id="oneway" name="direction">  
-                  </div>
-                  <div class="col-md">
-                    <span  class="btn btn-primary btn-block">Buscar</span>
-                  </div>
+                    <div class="col-md-6">
+
+                        <div class="media rebootstrap-media d-flex align-items-stretch mb-4">
+                            <div class="rebootstrap-media-image" style="background-image: url(assets/images/img_1.jpg)">
+                            </div>
+                            <div class="media-body">
+                                <h5 class="mb-3">Japón podría ser tu próximo destino</h5>
+                                <p>Desde 1500 €</p>
+                                <p><a href="">Reserva ya</a></p>
+                            </div>
+                        </div>
+
+                        <div class="media rebootstrap-media d-flex align-items-stretch mb-4">
+                            <div class="rebootstrap-media-image" style="background-image: url(assets/images/img_2.jpg)">
+                            </div>
+                            <div class="media-body">
+                                <h5 class="mb-3">Déjate llevar por Río de Janeiro</h5>
+                                <p>Desde 1200 €</p>
+                                <p><a href="">Reserva ya</a></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6">
+
+                        <div class="media rebootstrap-media d-flex align-items-stretch mb-4 ">
+                            <div class="rebootstrap-media-image" style="background-image: url(assets/images/img_3.jpg)">
+                            </div>
+                            <div class="media-body">
+                                <h5 class="mb-3">Pasea por el puente Golden Gate</h5>
+                                <p>Desde 1110 €</p>
+                                <p><a href="">Reserva ya</a></p>
+                            </div>
+                        </div>
+
+                        <div class="media rebootstrap-media d-flex align-items-stretch mb-4">
+                            <div class="rebootstrap-media-image" style="background-image: url(assets/images/img_4.jpg)">
+                            </div>
+                            <div class="media-body">
+                                <h5 class="mb-3">Respira aire puro en la Patagonia chilena</h5>
+                                <p>Desde 820 €</p>
+                                <p><a href="">Reserva ya</a></p>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    
-    </section>
-    <!-- END section -->
-
-    <section class="rebootstrap_section" id="section-feature-testimonial">
-      <div class="container">
-        <div class="row justify-content-center mb-1">
-          <div class="col-md-12 text-center mb-1">
-            <h5 class="display-4 border-bottom rebootstrap-section-heading">Tómate tu tiempo</h5>
-            <blockquote class="">
-              <p class="lead mb-4"><em>"Las vacaciones de muchas personas no son viajes de descubrimiento, sino rituales de tranquilidad."</em></p>
-              <p class="rebootstrap-author">
-                
-              
-                  <span class="rebootstrap-name">Philip Andrew Adams</span>
-                  
-               
-              </p>
-            </blockquote>
-
-          </div>
-        </div>
-        
-      </div>
-    </section>
-    <!-- END section -->
-
-
-    <section class="rebootstrap_section" id="section-city-guides">
-      <div class="container">
-        <div class="row text-center mb-5">
-          <div class="col-md-12">
-            <h6 class="display-4 border-bottom rebootstrap-section-heading">Descubre nuevos lugares</h6>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-
-            <div class="media rebootstrap-media d-flex align-items-stretch mb-4">
-              <div class="rebootstrap-media-image" style="background-image: url(assets/images/img_1.jpg)">
-              </div>
-              <div class="media-body">
-                <h5 class="mb-3">Japón podría ser tu próximo destino</h5>
-                <p>Desde 1500 €</p>
-                <p><a href="">Reserva ya</a></p>
-              </div>
             </div>
+        </section>
 
-            <div class="media rebootstrap-media d-flex align-items-stretch mb-4">
-              <div class="rebootstrap-media-image" style="background-image: url(assets/images/img_2.jpg)">
-              </div>
-              <div class="media-body">
-                <h5 class="mb-3">Déjate llevar por Río de Janeiro</h5>
-                <p>Desde 1200 €</p>
-                <p><a href="">Reserva ya</a></p>
-              </div>
-            </div>
+        <!-- TABPANEL section -->
 
-          </div>
-          <div class="col-md-6">
-            
-            <div class="media rebootstrap-media d-flex align-items-stretch mb-4 ">
-              <div class="rebootstrap-media-image" style="background-image: url(assets/images/img_3.jpg)">
-              </div>
-              <div class="media-body">
-                <h5 class="mb-3">Pasea por el puente Golden Gate</h5>
-                <p>Desde 1110 €</p>
-                <p><a href="">Reserva ya</a></p>
-              </div>
-            </div>
-
-            <div class="media rebootstrap-media d-flex align-items-stretch mb-4">
-              <div class="rebootstrap-media-image" style="background-image: url(assets/images/img_4.jpg)">
-              </div>
-              <div class="media-body">
-                <h5 class="mb-3">Respira aire puro en la Patagonia chilena</h5>
-                <p>Desde 820 €</p>
-                <p><a href="">Reserva ya</a></p>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </section>
-    
-  
-
-    <section class="rebootstrap_section" id="section-services">
-      <div class="container">
-        <div class="row text-center mb-5">
-          <div class="col-md-12">
-            <h3 class="display-4 border-bottom rebootstrap-section-heading">Nuestros servicios</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-           <div class="tab-control">
-  <!-- Nav tabs -->
-  <ul id="tabPanel" class="nav nav-tabs" role="tablist">
-    <li class="active"><a tabindex="0" id="tab1" aria-controls="panel1" aria-selected="true" href="#panel1" aria-controls="home" role="tab" data-toggle="tab">Panel 1</a></li>
-    <li><a tabindex="-1" id="tab2" aria-controls="panel2" aria-selected="false" href="#panel2" aria-controls="profile" role="tab" data-toggle="tab">Panel 2</a></li>
-    <li><a tabindex="-1" id="tab3" aria-controls="panel3" aria-selected="false" href="#panel3" aria-controls="messages" role="tab" data-toggle="tab">Panel 3</a></li>
-    <li><a tabindex="-1" id="tab4" aria-controls="panel4" aria-selected="false" href="#panel4" aria-controls="settings" role="tab" data-toggle="tab">Panel 4</a></li>
-  </ul>
-  <!-- Tab panes -->
-  <div class="tab-content">
-    <div id="panel1" role="tabpanel" aria-hidden="false" aria-labelledby="panel1Header" class="tab-pane in active">
-      <h1 id="panel1Header">Panel 1 items go here!</h1>
-    </div>
-    <div id="panel2" role="tabpanel" aria-hidden="true" aria-labelledby="panel2Header" class="tab-pane">
-      <h1 id="panel2Header">Panel 2 items go here...</h1>
-    </div>
-    <div id="panel3" role="tabpanel" aria-hidden="true" aria-labelledby="panel3Header" class="tab-pane">
-      <h1 id="panel3Header">Panel 3 items go here???</h1>
-    </div>
-    <div id="panel4" role="tabpanel" aria-hidden="true" aria-labelledby="panel4Header" class="tab-pane fade">
-      <h1 id="panel4Header">Panel 4 items should go here.</h1>
-    </div>
-  </div>
-</div>
-          </div>
-       </div>
-      </div>
-    </section>
-        
-    <!-- END section -->
-
-    <section class="rebootstrap_section" id="section-travel" >
-      <div class="container">
-        <div class="row justify-content-center mb-5">
-          <div class="col-md-12 text-center mb-5">
-            <h4 class="display-4 border-bottom rebootstrap-section-heading">Viaja con nosotros</h4>
-            <blockquote class="">
-              <p class="lead mb-4">Miles de ofertas y destinos de todas las partes del mundo te están esperando. Visita monumentos emblemáticos y disfruta de su gastronomía con tu familia o rodeado de amigos. Viaja comodamente y sin preocupaciones. Te ofrecemos un servicio personalizado y de calidad. Si no quedas satisfecho con el servicio recibido te devolvemos el dinero. Infórmate sin compromiso.</p>
-
-            </blockquote>
-          </div>
-        </div>
-        
-       
-       
-      </div>
-    </section>
-    <!-- END section -->
-
-
-
-
-    <section class="rebootstrap_section bg-light" id="section-contact">
-      <div class="container">
-        <div class="row text-center mb-5 ">
-          <div class="col-md-12">
-            <h2 class="display-4 border-bottom rebootstrap-section-heading">Contacto</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <p class="mb-5">Si tienes alguna duda acerca de nuestras promociones y servicios o quieres hacernos llegar tus comentarios y sugerencias, ponte en contacto con nosotros por:</p>
-            <div class="row">
-              <div class="col-md-6">
-                <ul class="rebootstrap-contact-details">
-                  <li>
-                    <span class="text-uppercase"><span class="ion-paper-airplane"></span> Email</span>
-                    travel@gmail.com
-                  </li>
-                  <li>
-                    <span class="text-uppercase"><span class="ion-ios-telephone"></span> Teléfono</span>
-                    +34 999 1234 5678
-                  </li>
-                </ul>
-              </div>
-              <div class="col-md-6">
-                <ul class="rebootstrap-contact-details">
-                  <li>
-                    <span class="text-uppercase"><span class="ion-location"></span> Dirección</span>
-                    Calle falsa 123, <br>
-                    Springfield <br>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 ">
-            <form action="" name="contact" method="post" class="rebootstrap-form rebootstrap-form-box mb60">
-              <div class="row mb-3">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="fname" class="sr-only sr-only-focusable">Nombre</label>
-                    <input type="text" class="form-control" id="fname" name="fname" placeholder="Nombre">
-                  </div>
+        <section class="rebootstrap_section" id="section-services">
+            <div class="container">
+                <div class="row text-center mb-5">
+                    <div class="col-md-12">
+                        <h3 class="display-4 border-bottom rebootstrap-section-heading">Nuestros servicios</h3>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="lname" class="" style="display:none;">Apellidos</label>
-                    <input type="text" class="form-control" id="lname" name="lname" placeholder="Apellidos">
-                  </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="myTab" class="container">
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li class="tab active">
+                                    <a id="tab1" href="#home" role="tab" aria-controls="home" aria-selected="true" data-toggle="tab" tabindex="0">Home</a>
+                                </li>
+                                <li class="tab">
+                                    <a id="tab2" href="#profile" role="tab" aria-controls="profile" aria-selected="false" data-toggle="tab" tabindex="-1">Profile</a>
+                                </li>
+                                <li class="tab">
+                                    <a id="tab3" href="#articles" role="tab" aria-controls="articles" aria-selected="false" data-toggle="tab" tabindex="-1">Articles</a>
+                                </li>
+                            </ul>
+
+                            <div id="myTabContent" class="tab-content" aria-live="polite">
+                                <div class="tab-pane fade in active" id="home" role="tabpanel" aria-labelledby="tab1" aria-hidden="false" tabindex="0">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="media rebootstrap-media d-block align-items-stretch mb-4">
+                                                <img src="assets/images/sq_img_1.jpg" class="img-fluid">
+                                                <div class="media-body">
+                                                    <h5 class="mb-3">Alojamiento</h5>
+                                                    <p>Alojamiento en los mejores hoteles del lugar con servicio de desayuno en la habitación incluido. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+
+                                            <div class="media rebootstrap-media d-block align-items-stretch mb-4 ">
+                                                <img src="assets/images/sq_img_2.jpg" alt="Sin descripción" class="img-fluid">
+                                                <div class="media-body">
+                                                    <h5 class="mb-3">Transporte</h5>
+                                                    <p>Gran oferta de viajes mediante diferentes medios de transporte: avión, tren, etc. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="media rebootstrap-media d-block align-items-stretch mb-4 ">
+                                                <img src="assets/images/sq_img_3.jpg" alt="" class="img-fluid">
+                                                <div class="media-body">
+                                                    <h5 class="mb-3">Traslados</h5>
+                                                    <p>Gestión de traslados por parte de la agencia de viajes en aeropuertos y cruceros. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="tab2" aria-hidden="true" tabindex="0">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="media rebootstrap-media d-block align-items-stretch mb-4 ">
+                                                <img src="assets/images/sq_img_4.jpg" alt="Estación de ferrocaril" class="img-fluid">
+                                                <div class="media-body">
+                                                    <h5 class="mb-3">Gastronomía</h5>
+                                                    <p>Disfruta de las gastronomía local más tradicional y vanguardista en tus viajes. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="media rebootstrap-media d-block align-items-stretch mb-4">
+                                                <img src="assets/images/sq_img_1.jpg" class="img-fluid">
+                                                <div class="media-body">
+                                                    <h5 class="mb-3">Alojamiento</h5>
+                                                    <p>Alojamiento en los mejores hoteles del lugar con servicio de desayuno en la habitación incluido. </p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="media rebootstrap-media d-block align-items-stretch mb-4 ">
+                                                <img src="assets/images/sq_img_2.jpg" alt="Sin descripción" class="img-fluid">
+                                                <div class="media-body">
+                                                    <h5 class="mb-3">Transporte</h5>
+                                                    <p>Gran oferta de viajes mediante diferentes medios de transporte: avión, tren, etc. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="tab-pane fade" id="articles" role="tabpanel" aria-labelledby="tab3" aria-hidden="true" tabindex="0">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="media rebootstrap-media d-block align-items-stretch mb-4 ">
+                                                <img src="assets/images/sq_img_3.jpg" alt="" class="img-fluid">
+                                                <div class="media-body">
+                                                    <h5 class="mb-3">Traslados</h5>
+                                                    <p>Gestión de traslados por parte de la agencia de viajes en aeropuertos y cruceros. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="form-group">
-                <label class="sr-only sr-only-focusable">Email</label>
-                <input type="email" class="form-control" name="email" placeholder="Email">
-              </div>
-              <div class="form-group">
-                <label for="message" class="sr-only sr-only-focusable"></label>
-                <textarea cols="30" rows="10" class="form-control" id="message" name="message" placeholder="Escribe tu consulta"></textarea>
-              </div>
-              <div class="form-group">
-                <button role="button" type="submit" class="btn btn-primary" id="submit"> Enviar consulta </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
+            </div>
+        </section>
+
+        <!-- TABPANEL section end -->
+
+        <section class="rebootstrap_section" id="section-travel">
+            <div class="container">
+                <div class="row justify-content-center mb-5">
+                    <div class="col-md-12 text-center mb-5">
+                        <h4 class="display-4 border-bottom rebootstrap-section-heading">Viaja con nosotros</h4>
+                        <blockquote class="">
+                            <p class="lead mb-4">Miles de ofertas y destinos de todas las partes del mundo te están esperando. Visita monumentos emblemáticos y disfruta de su gastronomía con tu familia o rodeado de amigos. Viaja comodamente y sin preocupaciones. Te ofrecemos
+                                un servicio personalizado y de calidad. Si no quedas satisfecho con el servicio recibido te devolvemos el dinero. Infórmate sin compromiso.</p>
+
+                        </blockquote>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+        <!-- END section -->
+
+
+
+
+        <section class="rebootstrap_section bg-light" id="section-contact">
+            <div class="container">
+                <div class="row text-center mb-5 ">
+                    <div class="col-md-12">
+                        <h2 class="display-4 border-bottom rebootstrap-section-heading">Contacto</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="mb-5">Si tienes alguna duda acerca de nuestras promociones y servicios o quieres hacernos llegar tus comentarios y sugerencias, ponte en contacto con nosotros por:</p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul class="rebootstrap-contact-details">
+                                    <li>
+                                        <span class="text-uppercase"><span class="ion-paper-airplane"></span> Email</span>
+                                        travel@gmail.com
+                                    </li>
+                                    <li>
+                                        <span class="text-uppercase"><span class="ion-ios-telephone"></span> Teléfono</span>
+                                        +34 999 1234 5678
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="rebootstrap-contact-details">
+                                    <li>
+                                        <span class="text-uppercase"><span class="ion-location"></span> Dirección</span>
+                                        Calle falsa 123, <br> Springfield <br>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 ">
+                        <form action="" name="contact" method="post" class="rebootstrap-form rebootstrap-form-box mb60">
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="fname" class="sr-only sr-only-focusable">Nombre</label>
+                                        <input type="text" class="form-control" id="fname" name="fname" placeholder="Nombre">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="lname" class="" style="display:none;">Apellidos</label>
+                                        <input type="text" class="form-control" id="lname" name="lname" placeholder="Apellidos">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only sr-only-focusable">Email</label>
+                                <input type="email" class="form-control" name="email" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="sr-only sr-only-focusable"></label>
+                                <textarea cols="30" rows="10" class="form-control" id="message" name="message" placeholder="Escribe tu consulta"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button role="button" type="submit" class="btn btn-primary" id="submit"> Enviar consulta </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 
     <footer class="rebootstrap_section rebootstrap-border-top">
-      <div class="container">
+        <div class="container">
 
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <p class="rebootstrap_font-14">&copy; 2017. Todos los derechos reservados <br> Proyecto de <a href="http://www.mtp.es/" target="_blank" type="link" tabindex="10">MTP</a></p>
-          </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="rebootstrap_font-14">&copy; 2017. Todos los derechos reservados <br> Proyecto de <a href="http://www.mtp.es/" target="_blank" type="link" tabindex="10">MTP</a></p>
+                </div>
+            </div>
         </div>
-      </div>
     </footer>
+
 
     
     <script src="assets/js/jquery.min.js"></script>
