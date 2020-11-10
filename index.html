@@ -253,21 +253,18 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div id="myTab" class="container">
-                            <ul class="nav nav-tabs" role="tablist">
-                                <li class="tab nav-justified active">
-                                    <a id="tab1" class="nav-link" href="#home" role="tab" aria-controls="home" aria-selected="true" data-toggle="tab" tabindex="0">Home</a>
-                                </li>
-                                <li class="tab nav-justified">
-                                    <a id="tab2" class="nav-link" href="#profile" role="tab" aria-controls="profile" aria-selected="false" data-toggle="tab" tabindex="-1">Profile</a>
-                                </li>
-                                <li class="tab nav-justified">
-                                    <a id="tab3" class="nav-link" href="#articles" role="tab" aria-controls="articles" aria-selected="false" data-toggle="tab" tabindex="-1">Articles</a>
-                                </li>
-                            </ul>
-
-                            <div id="myTabContent" class="tab-content" aria-live="polite">
-                                <div class="tab-pane fade in active" id="home" role="tabpanel" aria-labelledby="tab1" aria-hidden="false" tabindex="0">
-                                    <div class="row">
+                          <div class="tab-control">
+  <!-- Nav tabs -->
+  <ul id="tabPanel" class="nav nav-tabs" role="tablist">
+    <li class="active"><a tabindex="0" id="tab1" aria-controls="panel1" aria-selected="true" href="#panel1" aria-controls="home" role="tab" data-toggle="tab">Panel 1</a></li>
+    <li><a tabindex="-1" id="tab2" aria-controls="panel2" aria-selected="false" href="#panel2" aria-controls="profile" role="tab" data-toggle="tab">Panel 2</a></li>
+    <li><a tabindex="-1" id="tab3" aria-controls="panel3" aria-selected="false" href="#panel3" aria-controls="messages" role="tab" data-toggle="tab">Panel 3</a></li>
+    <li><a tabindex="-1" id="tab4" aria-controls="panel4" aria-selected="false" href="#panel4" aria-controls="settings" role="tab" data-toggle="tab">Panel 4</a></li>
+  </ul>
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div id="panel1" role="tabpanel" aria-hidden="false" aria-labelledby="panel1Header" class="tab-pane in active">
+      <div class="row">
                                         <div class="col-md-4">
                                             <div class="media rebootstrap-media d-block align-items-stretch mb-4">
                                                 <img src="assets/images/sq_img_1.jpg" class="img-fluid">
@@ -298,10 +295,9 @@
                                         </div>
 
                                     </div>
-                                </div>
-
-                                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="tab2" aria-hidden="true" tabindex="0">
-                                    <div class="row">
+    </div>
+    <div id="panel2" role="tabpanel" aria-hidden="true" aria-labelledby="panel2Header" class="tab-pane">
+      <div class="row">
                                         <div class="col-md-4">
                                             <div class="media rebootstrap-media d-block align-items-stretch mb-4 ">
                                                 <img src="assets/images/sq_img_4.jpg" alt="Estación de ferrocaril" class="img-fluid">
@@ -332,11 +328,9 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-
-
-                                <div class="tab-pane fade" id="articles" role="tabpanel" aria-labelledby="tab3" aria-hidden="true" tabindex="0">
-                                    <div class="row">
+    </div>
+    <div id="panel3" role="tabpanel" aria-hidden="true" aria-labelledby="panel3Header" class="tab-pane">
+      <div class="row">
                                         <div class="col-md-4">
                                             <div class="media rebootstrap-media d-block align-items-stretch mb-4 ">
                                                 <img src="assets/images/sq_img_3.jpg" alt="" class="img-fluid">
@@ -349,8 +343,14 @@
 
 
                                     </div>
-                                </div>
-                            </div>
+    </div>
+ 
+  </div>
+</div>
+                          
+                          
+                          
+                   
                         </div>
                     </div>
                 </div>
